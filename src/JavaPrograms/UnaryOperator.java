@@ -1,4 +1,4 @@
-package tutorial;
+package JavaPrograms;
 
 public class UnaryOperator {
 public static void main(String []args){

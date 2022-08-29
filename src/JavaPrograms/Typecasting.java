@@ -1,4 +1,4 @@
-package tutorial;
+package JavaPrograms;
 
 public class Typecasting {
 	public static void main(String []args){
