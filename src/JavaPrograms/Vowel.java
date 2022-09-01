@@ -1,12 +1,12 @@
 package JavaPrograms;
 
-public class VowelSmallLetter {
+public class Vowel {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		// TODO Auto-generated method stub
-		char ch='o';
+		char ch='O';
 		String VC="";
 		switch(ch) {
 		case 'a': 
@@ -22,6 +22,21 @@ public class VowelSmallLetter {
 			VC="Vowel";
 		break;
 		case 'u': 
+			VC="Vowel";
+		break;
+		case 'A': 
+			VC="Vowel";
+		break;
+		case 'E': 
+			VC="Vowel";
+		break;
+		case 'I': 
+			VC="Vowel";
+		break;
+		case 'O': 
+			VC="Vowel";
+		break;
+		case 'U': 
 			VC="Vowel";
 		break;
 		default:
