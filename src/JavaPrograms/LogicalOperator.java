@@ -27,12 +27,21 @@ and the b variable is incremented by 1 as it was checked*/
 System.out.println(b);//b=18 as b++ is performed
 
 System.out.println(a<b&&b<c&& ++b>c);/*Here, third Condition for Logical Operator(&&) is false, 
-and the b variable is incremented by 1 as it was checked*/
+and again b variable is incremented by 1 as it was checked*/
 System.out.println(b);//b=19 as ++b is performed
 
-System.out.println(a<b&&b<c&&b+2>c);/*Here, third Condition for Logical Operator(&&) is true, 
-and the b variable is incremented by 2 as it was checked*/
-System.out.println(b);//b=21 as b+2 is performed
+System.out.println(a<b&&b<=c&&++b==c);/*Here, third Condition for Logical Operator(&&) is true, 
+and the b variable is incremented by 1 as it was checked*/
+System.out.println(b);//b=20 as ++b is performed
+
+System.out.println(a<b&&b==c&&b++>c);/*Here, second condition is true but third Condition for 
+Logical Operator(&&) is false because, b is incremented by 1 after it was compared with the 
+value of c, and the b variable is incremented by 1 as it was checked*/
+System.out.println(b);//b=21 as b++ is performed
+
+System.out.println(a<b&&b>c);/*Here, second Condition for Logical Operator(&&) is true, 
+and the b variable is not incremented*/
+System.out.println(b);//b=21
 	}
 
 }
